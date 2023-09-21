@@ -7,7 +7,7 @@ devices_url = "https://cnmaestro.arc.vincent.solutions/api/v1/data/devices"
 
 # Set the Client ID and Client Password
 client_id = "paulhayter"
-client_password = "39nyn5WyDPU2Rv"
+client_password = ""
 
 # Encode the Client ID and Client Password
 credentials = base64.b64encode(f"{client_id}:{client_password}".encode("utf-8")).decode("utf-8")
